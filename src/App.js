@@ -20,7 +20,7 @@ function App() {
         render={() => (token ? <PostMainn /> : <Redirect to="/login" />)}
       />
       <Route path="/project/:postid" component={DetailMain} />
-      <Route component={NotFound} />
+      <Route path="*" component={NotFound} />
     </div>
   );
 }
