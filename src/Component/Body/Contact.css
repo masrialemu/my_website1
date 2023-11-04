@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background-color:aliceblue ;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.contact .contacts{
+    
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.contact .contacts h3{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(90, 9, 9);
+    justify-content: center;
+}
+.contact .contacts span{
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.contact .contactt .Btn{
+   width: 100%;
+   display: flex;
+   margin-top: 10px;
+
+   justify-content: end;
+}
+.contact .contactt .btn{
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    background-color: #082032;
+    color:white;
+    transition: 0.7s;
+}
+.contact .contactt .btn1{
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    background-color: #082032;
+    color:white;
+    transition: 0.7s;
+}
+
+.cm{
+    background-color:  #082032;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cm1{
+    background-color:rgb(126, 3, 3);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contactt{
+    margin-top: 50px;
+    width: 100%;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+.contact .Contact{
+    flex-wrap: nowrap;
+    width: 100%;
+    display: flex;
+    
+}
+.contac .Btn{
+   transition: 0.7s;
+}
+
+.contact .Contact form input{
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    margin-top: 5px;
+    border: 1.5px solid #082032;
+}
+.contact .Contact form .email{
+    height: 50px;
+    font-size: 14px;
+    
+}
+.contact .Contact form textarea{
+    background-color: transparent;
+    border: 1.5px solid #082032;
+    height: 150px;
+    font-size: 14px;
+    width: 100%;;
+    display: flex;
+    outline: none;
+    margin-top: 5px;
+}
+
+.contact .Contact form{
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin: 20px;
+}
+.contact .Contact .box{
+    width: 100%;
+}
+.contact .Contact .Share{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80%;
+    justify-content: center;
+  
+}
+.contact .Contact .share{
+    justify-content: center;
+    display: flex;
+  
+    align-items: center;
+    
+}
+.contact .Contact .share h1{
+    width: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 900px){
+    .contact .contacts{
+        width: 80%;
+
+    }
+   
+    .contact .Contact form{
+        width: 100%;
+        justify-content: flex-start;
+        position: relative;
+       
+    }
+    .contact .Contact form input{
+        background-color: transparent;
+        width: 100%;
+        margin-top: 5px;
+       
+    }
+    .contact .Contact form textarea{
+        width: 100%;
+    }
+    .contact .Contact form{
+        width: 97%; 
+    }
+    .contact .Contact{
+        flex-direction: column;
+    }
+    .contact .Contact .share{
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 20%; */
+    }
+    .contact .Contact .share h1{
+
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border: 1px solid black;
+    }
+   
+
+}
+@media only screen and (max-width: 950px){
+    
+    .contact .Contact .share h1{
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border: 1px solid black;
+    }
+   
+  
+
+    
+}
+@media only screen and (max-width: 600px){
+    .contact .contacts {
+        width: 97%;
+        margin-right: 10%;
+    }
+}
+

@@ -1,0 +1,91 @@
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-color: #082032;
+}
+.footer  h3{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+  
+}
+.footer  span{
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: white;
+    justify-content: center;
+    margin: 10px;
+}
+.footer ul{
+    display: flex;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.footer ul li{
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.footer ul li:hover{
+    color: red;
+}
+.footer .line{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer .line h1:hover{
+    background-color: transparent;
+}
+.footer .line h1{
+    transition: 0.7s;
+    font-size: 23px;
+    transform: scale(1);
+    cursor: pointer;
+ 
+    margin: 10px;
+}
+.footer a{
+    transition: 0.7s;
+    transform: scale(1);
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: red;
+}
+.footer .line h1:HOVER{
+    transform: scale(1.09);
+}
+.footer .copy{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 550px){
+   .footer ul li{
+    margin: 6px;
+   }
+}
+@media only screen and (max-width: 432px){
+    .footer ul li{
+     margin: 4px;
+    }
+ }
+ @media only screen and (max-width: 400px){
+    .footer ul li{
+     font-size: 15px;
+    }
+ }

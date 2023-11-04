@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.About{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    font-weight: 600;
+}
+
+.About .about h3{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(90, 9, 9);
+    justify-content: center;
+}
+.About .about span{
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.abouts{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.abouts .list{
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 90%;
+    height: auto;
+   /* border: 2px solid black; */
+}
+.abouts .mr{
+    visibility: hidden;
+}
+.about .list .imgs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .list img:hover{
+    transform: scale(1.01);
+}
+.about .list img{
+    transition: 0.7s;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    border-top-right-radius: 50%;
+    border-top-left-radius:50% ;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 100px;
+    background-color: white;
+    /* background-color: hsl(208, 100%, 95%); */
+    border: 2px solid gray;
+}
+.about .list{
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about .list .det{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: center;
+ 
+}
+.about .list .det .Text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about .list .det .text{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.about .list .more{
+    visibility: hidden;
+}
+.about .list .det .btn{
+    display: flex;
+}
+.about .list .det .btn button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+/* .about .dtt{
+    cursor: none;
+} */
+.about .list .det .btn button{
+    cursor: pointer;
+    background-color: #082032;
+    color: white;
+    border: none;
+    transition: 0.7s;
+    margin: 20px;
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.about .list p{
+    text-align: justify;
+   
+}
+@media only screen and (max-width: 1397px){
+    .abouts .mr input{
+        width: 100px;
+        cursor: pointer;
+        height: 30px;
+        background-color: aliceblue;
+        color: black;
+    }
+    .about .list p{
+        width: 100%;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .about .list .det .text {
+        width: 90%;
+    }
+    .abouts .text{
+        margin-top: 20px;
+        width: 100%;
+        top: 30px;
+    }
+    .abouts .mr{
+        visibility: visible;
+           
+    }
+    .about .list p{
+        font-size:18px;
+        display: -webkit-box;
+        -webkit-line-clamp: 30;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 1350px){
+    .about .list p{
+        font-size: 18px;
+    }
+    .abouts .text{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1248px){
+    .about .list p{
+        margin-top: 20px;
+    }
+    .about .list p{
+        font-size: 16px;
+    }
+    .about .list .det .btn button{
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1204px){
+    .about .list p{
+        font-size: 18px;
+    }
+    .about .list .det .btn button{
+       
+        margin: 8px;
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1145px){
+    .about .list p{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1102px){
+    .about .list p{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1040px){
+    .abouts .mr{
+        visibility: visible;
+           
+    }
+    .about .list p{
+        font-size: 18px;
+        display: -webkit-box;
+        -webkit-line-clamp: 30;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .about .list .det .btn button{
+        width: 130px;
+       height: 45px;
+       font-size: 15px;
+        margin: 6px;
+      
+    }
+    .abouts .mr input{
+        width: 100px;
+        cursor: pointer;
+        height: 30px;
+        background-color: aliceblue;
+        color: black;
+    }
+}
+
+
+@media only screen and (max-width: 978px){
+    .about .list img{
+      margin-bottom: 0;
+    }
+    .about .list img{
+        width: 100%;
+        height: 800px;
+     
+    }
+    .about .list .det .text {
+        width: 95%;
+    }
+    
+    .abouts .mr{
+        visibility: visible;
+           
+    }
+    .abouts .mr input{
+        margin-top: 20px;
+        width: 100px;
+        cursor: pointer;
+        height: 30px;
+        background-color: aliceblue;
+        color: black;
+    }
+    .about .list .imgs{
+        margin-top: 10px;
+    }
+    .about .list .det{
+        margin-top: 0px;
+    }
+    .about .list .imgs{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .about .list{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .about .list p{
+        font-size: 25px;
+        overflow: hidden;
+    }
+    .about .list .det .btn button{
+        width: 150px;
+        height: 50px;
+        font-size: 17px;
+        margin: 10px;
+  
+    }
+ 
+}@media only screen and (max-width: 830px){
+    .about .list img{
+        width: 100%;
+        height: 700px;
+     
+    }
+    
+    
+ 
+}
+
+@media only screen and (max-width: 750px){
+    .about .list img{
+        width: 100%;
+        height: 600px;
+     
+    }
+    
+    .abouts .list{
+        width: 98%;
+     
+       /* border: 2px solid black; */
+    }
+    .about .list .det .text{
+        justify-content: center;
+        width: 95%;
+    }
+ 
+}
+
+@media only screen and (max-width: 633px){
+    .abouts .list{
+        width: 98%;
+     
+       /* border: 2px solid black; */
+    }
+    .about .list .more{
+        visibility: visible;
+    }
+}
+@media only screen and (max-width: 600px){
+    .abouts .list{
+        width: 98%;
+    }
+    .about .list img{
+        width: 90%;
+        height: 500px;
+     
+    }
+    .about .list p{
+        width:90%;
+      
+    }
+
+   
+    .about .list .det .text{
+        width: 100%;
+        
+     
+    }
+    /* .about .mores{
+        background-color: brown;
+        width: 100%;
+        height: 40px;
+      
+    } */
+
+    .about .list .det .btn button{
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+        margin: 5px;
+        
+    }
+  
+  .about .list .more{
+    visibility: visible;
+}
+   .list .more{
+    cursor: pointer;
+    color: #082032;
+    visibility: visible;
+    
+   }
+
+
+}
+
+@media only screen and (max-width: 448px){
+    .about .list img{
+        width: 90%;
+        height: 450px;
+     
+    }
+    .abouts .list{
+        width: 98%;
+     
+       /* border: 2px solid black; */
+    }
+    .about .list .det .btn button{
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+        margin: 10px;
+      
+    }
+    .about .list .imgs{
+        margin-top: 10px;
+    }
+ 
+ 
+  
+}
+@media only screen and (max-width: 400px){
+    .about .list .det .text{
+        width: 90%;
+    }
+    .abouts .list{
+        width: 100%;
+     
+       /* border: 2px solid black; */
+    }
+    .about .list .imgs{
+        margin-top: 7px;
+    }
+    
+    .about .list .det p{
+        font-size: 18px;
+        width: 700px;
+     
+        
+    }
+    .about .list img{
+        width: 300px;
+        height: 301px;
+
+    }
+    .about .list .det .btn button{
+        width: 130px;
+        height: 45px;
+        font-size: 17px;
+        margin: 5px;
+     
+    }
+}
+
+/* 
+
+
+
+
+
+
+
+
+/* 
+.about .Text button:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+.about .Text button{
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #082032;
+    color: gainsboro;
+    font-weight: 600;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s;
+  border: none;
+  border: 1px solid white;
+  margin: 10px;
+ 
+
+}
+.about .hide h1{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 50px;
+    color: #082032;
+}
+.about .list .det p{
+    width: 500px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about .list .det .btn{
+    display: flex;
+    justify-content: center
+} */

@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;
+    list-style: none;
+    box-sizing: border-box;
+}
+.bodyyc .detail{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.bodyyc .details{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   height: auto;
+  
+}
+
+
+.bodyyc .delete-comment{
+    width: 100px;
+    background-color: red;
+    height: 30px;
+}
+.bodyyc .detailsi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.bodyyc .details{ 
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+
+}
+
+.bodyyc .detail #editbtn,#delete,#save ,#close{
+    margin: 3px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.bodyyc{
+    display: flex;
+    justify-content: center;
+}
+.bodyyc .detail #titlebox{
+    margin-top: 3%;
+    font-size: 22px;
+    font-weight: 600;
+    color:#031829;;
+}
+.bodyyc .allbtns{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column ;
+    height: auto;
+}
+.bodyyc .detail .boxp{
+    margin-top: 3%;
+    font-size: 22px;
+    font-weight: 600;
+    color:#031829;;
+}
+/* Style for the input field */
+.bodyyc #titlebox {
+    border: none; /* Initially, hide the border */
+    outline: none; /* Remove the focus outline */
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 5px; /* Add some padding for spacing */
+    width: 90%; /* Expand the input to fill its container */
+    transition: border 0.3s; /* Add a smooth transition for the border */
+    background-color: transparent; /* Make the input background transparent */
+    
+}
+
+.imageboxx{
+    margin-top: 2%;
+   
+}
+
+
+.detail #imagebox{
+    margin-top: 10%;
+    border: 1px solid black;
+    height: 70vh;
+    max-width: 680px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.detail #imageboxc{
+    margin-top: 2%;
+    /* width: 40rem; */
+    height: 70vh;
+    max-width: 680px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.detail .time{
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    
+}
+.detail #description{
+    display: none;
+}
+.right .most{
+    display: flex;
+    justify-content: center;
+    color: #007bff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.right{
+  
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+} 
+.right .lines{
+    height: 4px;
+    width: 100%;
+    background-color: #0056b3;
+}
+.right .rights{
+    margin: 15px;
+    background-color: rgba(222, 219, 219, 0.2);
+    width: 90%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.7s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.right .rights{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right .rights:hover{
+    transform: scale(1.01);
+}
+.right .tite {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail .descx{
+    text-align: justify;
+    width: 40rem;
+}
+.right img{
+    width: 19rem;
+    height: 17rem;
+    border-radius: 20px;
+}
+.right .tite{
+    color: #031829;
+    position: relative;
+    font-size: 20px;
+    width: 90%;
+    font-weight: 600;
+    
+}
+/* Style for the hidden file input */
+#imagefile {
+    display: none;
+}
+.allbtns{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 38rem;
+    position: relative;
+    /* bottom: 50px; */
+   
+}
+/* Style for the label (icon) that triggers the file input */
+#imagefile-label {
+    width: 10rem;
+    cursor: pointer;
+    position: relative;
+    /* bottom: 40px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: end;
+   
+}
+
+.comment .delete{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Style for the FontAwesome icon */
+
+#upload{
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+    background-color: wheat;
+  
+}
+.detail .git, .live{
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    background-color: #0056b3;
+    color: white;
+    font-size: 17px;
+    border: none;
+    
+}
+.detail .git,.byy{
+    margin: 10px;
+}
+.detail .btn{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+
+}
+.popup-container {
+    z-index: 9999;
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.allbtns{
+    position: relative;
+    bottom:3%;
+    left: 20px;
+   
+}
+.allbtns img{
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 1350px){
+    .bodyyc .detail{
+        width: 90%;
+    }
+ 
+  
+}
+
+@media screen and (max-width: 1240px) {
+    .flash-messages {
+        width: 60%;
+    }
+    .bodyyc .detail{
+        width: 100%;
+    }
+    
+    .details{ 
+        width: 95%;
+      
+    }
+    .right{
+     width: 100%;
+   
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .bodyyc .detail{
+        width: 70%;
+        justify-content: center;
+    }
+    .detail{ 
+        width: 95%;
+        flex-wrap: wrap;
+    
+    }
+    .desc{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        
+  
+    }
+    .detail .descx {
+        width: 95%;
+    }
+    .vx{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+   .rightt{
+    display: flex;
+   }
+}
+@media screen and (max-width: 1008px) {
+    .imageboxx{
+        height: auto;
+        
+    }
+    .detail{ 
+        width: 95%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .details{ 
+        justify-content: center;
+        height: auto;
+        width: 80%;
+        height: auto;
+
+    }
+
+
+}
+
+@media screen and (max-width: 995px) {
+    .details{ 
+        margin-top: 5%;
+    }
+
+    .rightt{
+        width: 80%;
+        justify-content: center;
+        display: flex;
+        scroll-behavior: smooth;
+        /* overflow-y: scroll; */
+    }
+    .right .rightt{
+        margin: 15px;
+        background-color: rgba(222, 219, 219, 0.2);
+        width: 70%;
+        height: auto;
+        flex-wrap: nowrap;
+    }
+  
+    .detail .descx{
+        text-align: justify;
+
+    }
+    .right img{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 20px;
+    }
+    .flash-messages {
+        width: 80%;
+    }
+    .right .tite{
+        color: #031829;
+        position: relative;
+        font-size: 20px;
+        width: 90%;
+        font-weight: 600;
+        
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    
+.detail #imagebox {
+    width: 95%;
+}
+    .right{
+        margin-top: 7%;
+        width: 100%;
+        justify-content: center;
+    }
+    .bodyyc .detail{
+        width: 95%;
+        justify-content: center
+        
+    }
+    .details .desc .descx {
+        width: 95%;
+    }
+    .right a{
+        width: 100%;
+    }
+    .rightt{
+        width: 90%;
+    }
+    .rightt .rights{
+        width: 90%;
+        height: auto;
+        margin: 2%;
+    }
+    .right .rightt{
+        margin: 15px;
+        background-color: rgba(222, 219, 219, 0.2);
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        
+    }
+    .right img{
+        width: 100%;
+        height: 20rem;
+        border-radius: 20px;
+    }
+    .right .tite{
+        color: #031829;
+        position: relative;
+        font-size: 20px;
+        width: 90%;
+        font-weight: 600;
+        
+    }
+   
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .right {
+        width: 100%;
+    }
+    .right .rightt {
+        width: 100%;
+    }
+    .bodyyc .detail{
+        width: 95%;
+        justify-content: center;
+        }
+        .rightt .rights {
+            width: 100%;
+        }
+    }
+@media screen and (max-width: 600px) {  
+    .bodyyc .detail{
+        width: 95%;
+        justify-content: center
+        }
+        .detail #imagebox {
+            height: 500px;
+        } 
+    }
+ @media screen and (max-width: 500px) {  
+    .detail #imagebox {
+        height: 450px;
+        background-color: gainsboro;
+    }      
+}

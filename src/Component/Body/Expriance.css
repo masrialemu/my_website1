@@ -1,0 +1,113 @@
+.exp{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+ .byy{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.exp .exps{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.exp .exps h3{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(90, 9, 9);
+    justify-content: center;
+}
+.exp .exps span{
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.exp .Exps{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.exp .html{
+    width: 80%;
+    height: 10px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.exp .f1{
+    width: 40%;
+    margin: 10px;
+    height: 100px;
+    color: #082032;
+}
+.exp .f1 h2{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.exlist{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exp .html .injv{
+    border-radius: 20px;
+    width: 90%;
+    /* width: 0%; */
+    height: 7px;
+    background-color:  #082032;
+}
+
+
+
+/* /////////////////////mobile/////////////////////// */
+
+@media only screen and (max-width: 800px){
+   .exp .f1{
+    width: 90%;
+   }    
+}
+
+
+@media only screen and (max-width: 897px){
+    .exp .exps{
+        width: 95%;
+        justify-content: center;
+    }   
+    .exp .Exps{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }   
+    .exlist{
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
