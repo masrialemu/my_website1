@@ -58,7 +58,7 @@
   .port .Ports .lport{
   
     width: 33%;
-    margin: 3%;
+   
     display: flex;
     flex-direction: column;
     align-items: center;

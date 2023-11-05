@@ -136,12 +136,17 @@
     }
 } */
 @media only screen and (max-width: 600px){
-    /* .bgs .center{
-        width: 200%;
-        display: flex;
-        justify-content: center;
+    .bgs .center .title{
+        border: none;
+        width: 700px;
+        height: 300px;
+        box-shadow:  0 0 0 0 ;
+        backdrop-filter: blur(7px);
+        margin-top: 13%;
+        color: rgb(236, 154, 39);
+      
     }
-    */
+    
     .bgs .center .title{
         height: auto;
     }
