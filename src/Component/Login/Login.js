@@ -7,6 +7,9 @@ function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
+    const [hide,setHide]=useState(true)
+  const [show,setShow]=useState(true)
+  const [msg,setMsg]=useState('')
   const history = useHistory(); // Initialize useHistory
   const { login } = useUser();
 
@@ -34,10 +37,16 @@ function Login() {
         // Redirect the user to the home page or perform any other actions
         history.push('/'); // Use history.push to navigate to the home page
       } else {
+        setMsg('ur email or password is not corect')
+        setShow(false)
+        setHide(false)
         setError('Invalid credentials. Please try again.');
       }
     })
     .catch((error) => {
+      setMsg('ur email or password is not corect')
+      setShow(false)
+      setHide(false)
       console.error(error);
       setError('An error occurred. Please try again later.');
     });
@@ -49,6 +58,8 @@ function Login() {
   return (
     <div className="login">
     <div className="containerz">
+    {!hide && <div className="cm">{show ? <div className='cm'><p> {msg} </p></div>:<div className='cm1'><p> {msg}</p></div>}</div>}
+
       <h1 className="login-title">Login</h1>
       <div className="login-form" id="login-form">
         <label htmlFor="username" className="login-label">Email:</label>

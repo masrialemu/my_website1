@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Portfolio.css';
 import axios from 'axios';
 import { AiFillDelete} from "react-icons/ai";
-import { Link } from 'react-router-dom';
+
 
 
 function Portfolio() {
@@ -83,7 +83,9 @@ const handleDelete1 = async (id) => {
                  </a>
        
                  {
-                  token ?  <AiFillDelete className='byy'  onClick={()=>handleDelete1(project._id)} />
+                  token ? <button className='dlx'>
+                  <AiFillDelete className='byy'  onClick={()=>handleDelete1(project._id)} />
+                  </button>
          :null
                  }
                 

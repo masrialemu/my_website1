@@ -26,7 +26,7 @@ function Bg() {
 
 
 // const Background={backgroundImage:`url(${use[num].img})`
-const Background={backgroundImage:`url(${IMG1})`  }
+const Background={backgroundImage:`url(${IMG5})`  }
   return (
     <div className='BG' id='home'>
      <div className="BGS" >
@@ -43,7 +43,7 @@ const Background={backgroundImage:`url(${IMG1})`  }
           </h3>
           </span></h1>  
           <h3>{e.c3}</h3>
-          <span className='ans'><h3 style={{color:"#082032"}} > 
+          <span className='ans'><h3 style={{color:"gold"}} > 
           
           <Typewriter 
           options={{
