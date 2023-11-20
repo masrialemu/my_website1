@@ -14,7 +14,7 @@ function Footer() {
 
            <li><a href="#home">home</a></li>
            <li><a href="#about">about</a></li>
-           <li><a href="#exp">expriance</a></li>
+           <li><a href="#exp">skill</a></li>
            <li><a href="#portfolio">portfolio</a></li>
            <li><a href="#service">service</a></li>
            <li><a href="#contact">contact</a></li>

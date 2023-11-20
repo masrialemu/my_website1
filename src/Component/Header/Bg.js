@@ -47,7 +47,7 @@ const Background={backgroundImage:`url(${IMG5})`  }
           
           <Typewriter 
           options={{
-            strings: ['html','css','javascript','react.js','node.js','express.js','mongoose','java','flask','mysqil','php','bootstrap','python','firebase','react-native'],
+            strings: ['HTML','CSS','JavaScript','React.js','Node.js','Express.js','MongoDb','Java','Flask','MYSQL','PHP','Bootstrap','Python','Firebase','React-native'],
             autoStart: true,
             loop: true,
             }}

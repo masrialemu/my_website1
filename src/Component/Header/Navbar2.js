@@ -63,7 +63,7 @@ const Navbar={
         <div className="list" >
         <h3><a href="/home" className='link'>Home</a></h3>
         <h3><a href="/home" className='link'>About</a></h3>
-        <h3><a href="/home" className='link'>Expriance</a></h3>
+        <h3><a href="/home" className='link'>Skill</a></h3>
         <h3><a href="/home" className='link'>Portfolio</a></h3>
         <h3><a href="/home" className='link'>Service</a></h3>
         <h3><a href="/home" className='link' >Contact</a></h3>

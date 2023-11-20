@@ -63,7 +63,7 @@ const Navbar={
         <div className="list" >
         <h3><a href="home" className='link' style={{color:"red"}}>Home</a></h3>
         <h3><a href="#about" className='link'>About</a></h3>
-        <h3><a href="#exp" className='link'>Expriance</a></h3>
+        <h3><a href="#exp" className='link'>Skill</a></h3>
         <h3><a href="#portfolio" className='link'>Portfolio</a></h3>
         <h3><a href="#service" className='link'>Service</a></h3>
         <h3><a href="#contact" className='link' >Contact</a></h3>

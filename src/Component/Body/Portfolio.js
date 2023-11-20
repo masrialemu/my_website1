@@ -24,7 +24,7 @@ function Portfolio() {
 }, []); // Empty dependency array, meaning it will run once when the component mounts
 
 const handleDelete1 = async (id) => {
-  const userConfirmed = window.confirm(`Are you sure you want to delete"?`);
+  const userConfirmed = window.confirm("Are you sure you want to delete?");
 
   if (userConfirmed) {
     try {
@@ -33,9 +33,13 @@ const handleDelete1 = async (id) => {
           'Authorization': `Bearer ${token}`,
         },
       });
-      console.log('Project deleted successfully');
-      // You can handle redirection or other actions after successful deletion here
-      window.location.reload();
+      if (response.status === 200) {
+        console.log('Project deleted successfully');
+        // You can handle redirection or other actions after successful deletion here
+        window.location.reload();
+      } else {
+        console.error('Failed to delete project. Server returned status:', response.status);
+      }
     } catch (error) {
       // Handle the error here
       console.error('Error deleting project', error);
@@ -45,6 +49,7 @@ const handleDelete1 = async (id) => {
     // You can choose to do nothing or display a message to the user
   }
 };
+
 
 
 
